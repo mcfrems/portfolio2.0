@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    margin: 40px 40px 100px 40px;
+    margin: 80px 40px 100px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,19 +18,98 @@ body {
 
 .headline {
     color: white; 
-    margin: 0 40px;
+    margin: 150px 150px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.button {
+.header-button {
     background-color:#632F7B;
     border: none;
+    border-radius: 20px;
     color: white;
-    padding: 10px 50px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
-  }
+    transition: 0.7s ease;
+}
+
+.about-me {
+    margin: 300px 40px;
+    font-size: 25px;
+}
+
+.about-me-text {
+    color: white;
+    padding: 150px;
+}
+
+.about-me-text p {
+    padding: 40px 40px 0 0px;
+}
+
+.top-project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+.top-project a {
+    cursor: pointer;
+}
+
+.bottom-project {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+.bottom-project a {
+    cursor: pointer;
+}
+
+.project-text {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: white; 
+}
+
+#contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    height: 300x;
+}
+
+.contact-button {
+    background-color:#632F7B;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 40px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    cursor: pointer;
+}
+/* need to figure out ada compatibility */
