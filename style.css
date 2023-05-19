@@ -43,39 +43,39 @@ body {
 
 .about-me-text {
     color: white;
-    padding: 150px;
+    padding: 150px 150px 0 150px;
 }
 
 .about-me-text p {
     padding: 40px 40px 0 0px;
 }
 
-.top-project {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 100px;
+.project-container {
+    margin: 0 150px 150px 150px;
 }
 
-.top-project a {
+.top-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     cursor: pointer;
 }
 
 .bottom-project {
+    margin-top: 150px;
     display: flex;
     align-items: center;
-    margin: 100px;
-}
-
-.bottom-project a {
+    justify-content: center;
+    flex-wrap: wrap;
     cursor: pointer;
 }
 
 .project-text {
-    text-align: center;
-    width: 100%;
     font-size: 20px;
     color: white; 
+    width: 30%;
+    margin: 40px;
 }
 
 #contact {
@@ -113,3 +113,28 @@ body {
     cursor: pointer;
 }
 /* need to figure out ada compatibility */
+
+@media screen and ( max-width: 960px) {
+    .headline {
+        font-size: 20px;
+        background-color: green;
+    }
+
+    .project-text {
+        font-size: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .headline {
+        font-size: 10px;
+        background-color: blue;
+    }
+
+    .project-text {
+        font-size: 15px;
+        width: 90%;
+    }
+  }
+
